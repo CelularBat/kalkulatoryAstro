@@ -1,0 +1,51 @@
+.kalkulator
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-block: 10px;
+
+}
+
+
+.svg-container{
+    width:100%;
+    max-width: 450px;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+
+    border-radius: 10px;
+    
+    background-color: azure;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+    .svg-container.mobile-rotate {
+        transform: rotate(90deg); 
+        height: 99vw;
+        width: auto;
+    }
+}
+
+.Wzor-container{
+    border-radius: 10px;
+    background-color: azure;
+    opacity: 0.8;
+
+    padding: 15px 10px;
+    margin-block: 6px;
+    word-wrap: break-word; /* Legacy property */
+    overflow-wrap: break-word; /* Modern property */
+    word-break: break-word;
+
+    max-width: 99vw;
+}
+
+.Wzor-container .katex{
+    font-size: larger;
+    line-height: 2;
+}
