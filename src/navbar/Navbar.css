@@ -29,6 +29,9 @@
 .Navbar a:visited{
     color:yellow;
 }
+.Navbar a:link{
+    color:yellowgreen;
+}
 
 .Navbar._darkTheme{
     background-image: none;

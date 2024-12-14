@@ -26,8 +26,9 @@
 @media only screen and (max-width: 768px) {
     .svg-container.mobile-rotate {
         transform: rotate(90deg); 
-        height: 99vw;
-        width: auto;
+        height: 85vw;
+        width: max-content;
+        margin-top: 70px;
     }
 }
 

@@ -16,7 +16,7 @@ function WaveguideRings({IsDarkTheme}) {
   
     const info = {
         title: "Waveguide Rings",
-        para: "something calculator"
+        para: "Original VE4MA Feed"
       }
   
       let L = 299792 / SliderF;
