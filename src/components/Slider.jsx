@@ -16,7 +16,8 @@ function Slider({ minValue, maxValue, widthPx, name, onValueChange, Value,
 
   const darkClass = IsDarkTheme?" _darkTheme":"";
   return (
-    <div className="slider-container" style={{ width: `${widthPx}px` }}>
+    //<div className="slider-container" style={{ width: `${widthPx}px` }}>
+    <div className="slider-container" style={{ minWidth: `${widthPx}px` }}>
       <div className="slider-label-container">
         <label className={"slider-label"+darkClass}>{name}:</label>
         <input

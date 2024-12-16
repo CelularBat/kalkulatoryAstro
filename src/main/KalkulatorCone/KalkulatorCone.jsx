@@ -64,7 +64,7 @@ function KalkulatorCone({IsDarkTheme}) {
           />
         </label>
 
-        <label style={{ marginLeft: '10px' }}>
+        <label>
           <Slider 
             minValue={5} 
             maxValue={200} 

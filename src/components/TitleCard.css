@@ -10,6 +10,8 @@
     perspective: 1000px;
     transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
     cursor: pointer;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 
   .TitleCard-content {
