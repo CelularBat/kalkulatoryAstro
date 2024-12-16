@@ -62,7 +62,11 @@ function KalkulatorLambda({IsDarkTheme}) {
 
       <div className='Wzor-container'>
         <span style={{fontSize: "0.8rem", marginTop:"10px"}}>
-            Based on: https://www.researchgate.net/publication/224322359_On_the_optimal_dimensions_of_helical_antenna_with_truncated-cone_reflector
+            Based on:&nbsp;
+            <a href='https://www.researchgate.net/publication/224322359_On_the_optimal_dimensions_of_helical_antenna_with_truncated-cone_reflector'>
+            https://www.researchgate.net/publication/224322359_On_the_optimal_dimensions_of_helical_antenna_with_truncated-cone_reflector
+            </a>
+             
         </span>
       </div>
 

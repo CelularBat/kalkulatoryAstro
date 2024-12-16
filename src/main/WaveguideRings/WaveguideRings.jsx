@@ -79,7 +79,12 @@ function WaveguideRings({IsDarkTheme}) {
 
         <div className='Wzor-container' style={{ marginTop:"15px"}}>
         <span style={{fontSize: "0.8rem", marginTop:"15px"}}>
-            Based on: https://www.w1ghz.org/antbook/conf/high_efficiency_prime_feeds.pdf
+            Based on:&nbsp;
+            <a href='https://www.w1ghz.org/antbook/conf/high_efficiency_prime_feeds.pdf'>
+            https://www.w1ghz.org/antbook/conf/high_efficiency_prime_feeds.pdf
+            </a>
+           
+            
         </span>
         </div>
         

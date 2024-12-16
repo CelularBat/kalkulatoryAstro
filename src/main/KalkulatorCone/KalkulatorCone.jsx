@@ -87,7 +87,10 @@ function KalkulatorCone({IsDarkTheme}) {
 
       <div className='Wzor-container'>
         <span style={{fontSize: "0.8rem", marginTop:"15px"}}>
-            Based on: http://www.om6aa.eu/Loop_Feed_with_enhanced_performance.pdf
+            Based on:&nbsp;  
+            <a href='http://www.om6aa.eu/Loop_Feed_with_enhanced_performance.pdf'>
+              http://www.om6aa.eu/Loop_Feed_with_enhanced_performance.pdf
+            </a>
         </span>
       </div>
       
