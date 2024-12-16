@@ -76,7 +76,12 @@ function WaveguideRings({IsDarkTheme}) {
         <div className='svg-container mobile-rotate ' style={{minWidth:"calc(min(600px,99vw))" }}>
           <RysunekRings {...{...data,L}}/>
         </div>
-  
+
+        <div className='Wzor-container'>
+        <span style={{fontSize: "0.8rem", marginTop:"15px"}}>
+            Based on: https://www.w1ghz.org/antbook/conf/high_efficiency_prime_feeds.pdf
+        </span>
+        </div>
         
       </div>
     );

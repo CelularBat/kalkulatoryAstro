@@ -71,6 +71,12 @@ function KalkulatorKata({IsDarkTheme,isCone}) {
       <div className='svg-container'>
         <Rysunek {...{SliderW,SliderH,angle_deg}}/>
       </div>
+
+      <div className='Wzor-container'>
+        <span style={{fontSize: "0.8rem", marginTop:"15px"}}>
+            Based on: http://www.om6aa.eu/Loop_Feed_with_enhanced_performance.pdf
+        </span>
+      </div>
       
     </div>
   );

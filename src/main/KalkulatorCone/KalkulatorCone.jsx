@@ -84,6 +84,12 @@ function KalkulatorCone({IsDarkTheme}) {
       <div className='svg-container'>
         <RysunekCone {...{SliderD1,SliderH,angle_deg,d2}}/>
       </div>
+
+      <div className='Wzor-container'>
+        <span style={{fontSize: "0.8rem", marginTop:"15px"}}>
+            Based on: http://www.om6aa.eu/Loop_Feed_with_enhanced_performance.pdf
+        </span>
+      </div>
       
     </div>
   );
