@@ -28,7 +28,7 @@
         transform: rotate(90deg); 
         height: 85vw;
         width: max-content;
-        margin-top: 70px;
+        margin-block: 70px;
     }
 }
 

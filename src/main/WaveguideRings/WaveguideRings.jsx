@@ -77,7 +77,7 @@ function WaveguideRings({IsDarkTheme}) {
           <RysunekRings {...{...data,L}}/>
         </div>
 
-        <div className='Wzor-container'>
+        <div className='Wzor-container' style={{ marginTop:"15px"}}>
         <span style={{fontSize: "0.8rem", marginTop:"15px"}}>
             Based on: https://www.w1ghz.org/antbook/conf/high_efficiency_prime_feeds.pdf
         </span>
