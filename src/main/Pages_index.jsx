@@ -1,6 +1,6 @@
 import React from 'react';
 import KalkulatorKata from './KalkulatorKata/KalkulatorKata';
-import KalkulatorCone from './KalkulatorCone/Kalkulatorcone';
+import KalkulatorCone from './KalkulatorCone/KalkulatorCone';
 import KalkulatorLambda from './KalkulatorLambda/KalkulatorLambda';
 import WaveguideRings from './WaveguideRings/WaveguideRings';
 
