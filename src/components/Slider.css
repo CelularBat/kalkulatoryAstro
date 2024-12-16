@@ -45,8 +45,8 @@
 }
 
 .slider-input:hover {
-  transform: rotateY(10deg) rotateX(10deg) scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .slider-input:focus {
